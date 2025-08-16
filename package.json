@@ -1,0 +1,32 @@
+{
+  "name": "barrows-webflow-cloud",
+  "version": "1.0.0",
+  "description": "Basic Next.js 15 + React 19 app scaffold for Webflow Cloud integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.4.6",
+    "typescript": "^5.9.2"
+  }
+}
