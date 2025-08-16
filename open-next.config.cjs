@@ -1,4 +1,9 @@
+// OpenNext configuration for Cloudflare build
 module.exports = {
-  default: {},
+  default: {
+    build: {
+      nextBuildCommand: 'npm run build'
+    }
+  }
 };
 
